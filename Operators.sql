@@ -43,3 +43,12 @@ WHERE Marks > 90;
 SELECT * 
 FROM Student
 WHERE Marks < 60;
+--4. Greater Than or Equal To (>=)
+SELECT *
+FROM Student
+WHERE Marks >= 90;
+
+--5.Less than or equal To (<=)
+SELECT * 
+FROM Student
+WHERE Marks <= 70;
