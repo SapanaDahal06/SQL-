@@ -59,6 +59,17 @@ SELECT *
 FROM Student
 WHERE Grade <> 'A';
 
+--Show all students who are from Pokhara.
 SELECT * 
 FROM Student
 WHERE City = 'Pokhara';
+
+--Show all students whose Marks are less than 75.
+SELECT * 
+FROM Student
+WHERE Marks < = 75;
+
+--Show all students whose Age is greater than 22.
+SELECT * 
+FROM Student
+WHERE Age >= 22;
