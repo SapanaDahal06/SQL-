@@ -39,4 +39,7 @@ SELECT *
 FROM Student
 WHERE Marks > 90;
 
---
+--3. Less Than (<)
+SELECT * 
+FROM Student
+WHERE Marks < 60;
