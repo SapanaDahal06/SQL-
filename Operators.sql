@@ -34,4 +34,9 @@ SELECT *
 FROM Student
 WHERE Marks = 92;
 
-SELECT * FROM Student;
+--2.Greater than (>)
+SELECT *
+FROM Student
+WHERE Marks > 90;
+
+--
