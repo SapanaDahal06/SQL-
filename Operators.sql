@@ -39,16 +39,26 @@ SELECT *
 FROM Student
 WHERE Marks > 90;
 
---3. Less Than (<)
+--3. Less Than (<)  Students whose age is below 22.
 SELECT * 
 FROM Student
-WHERE Marks < 60;
+WHERE age< 22;
+
+
 --4. Greater Than or Equal To (>=)
 SELECT *
 FROM Student
 WHERE Marks >= 90;
 
---5.Less than or equal To (<=)
+--5.Less than or equal To (<=) 
 SELECT * 
 FROM Student
 WHERE Marks <= 70;
+--6. Not Equal To (<>) This shows all students except those with Grade A.
+SELECT *
+FROM Student
+WHERE Grade <> 'A';
+
+SELECT * 
+FROM Student
+WHERE City = 'Pokhara';
