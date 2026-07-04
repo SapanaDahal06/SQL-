@@ -26,5 +26,5 @@ VALUES
 -- Display Table
 SELECT * FROM Customer;
 
-DELETE FROM Customer;
+
 
