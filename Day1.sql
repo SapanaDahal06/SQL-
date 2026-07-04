@@ -36,3 +36,7 @@ Where ID = 1;
 update Customer
 set City = 'Australia' , Age = 22
 where ID = 1;
+
+--WHERE CLAUSE
+SELECT Name FROM Customer
+WHERE Age = 24;
