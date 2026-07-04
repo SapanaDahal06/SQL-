@@ -72,4 +72,8 @@ WHERE Marks < = 75;
 --Show all students whose Age is greater than 22.
 SELECT * 
 FROM Student
-WHERE Age >= 22;
+WHERE Age >= 22
+--Show all students whose Marks are exactly 81.
+SELECT * 
+FROM Student
+WHERE Marks = 81;
