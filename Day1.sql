@@ -40,3 +40,7 @@ where ID = 1;
 --WHERE CLAUSE
 SELECT Name FROM Customer
 WHERE Age = 24;
+
+SELECT *
+FROM Customer
+WHERE ID = 1;
