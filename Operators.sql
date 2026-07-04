@@ -77,3 +77,9 @@ WHERE Age >= 22
 SELECT * 
 FROM Student
 WHERE Marks = 81;
+
+--Show all students whose Grade is not 'B'.
+SELECT *
+FROM Student
+WHERE Grade <> 'B';
+
