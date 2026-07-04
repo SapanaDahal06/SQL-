@@ -27,4 +27,11 @@ VALUES
 (9, 'Anisha', 23, 'Female', 'Kathmandu', 88, 'B'),
 (10, 'Rohan', 22, 'Male', 'Pokhara', 91, 'A');
 
+
+
+-- 1. Equal To (=)
+SELECT *
+FROM Student
+WHERE Marks = 92;
+
 SELECT * FROM Student;
