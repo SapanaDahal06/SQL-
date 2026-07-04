@@ -1,0 +1,19 @@
+USE college;
+
+CREATE TABLE STUDENT1(
+ID INT PRIMARY KEY,
+NAME VARCHAR(100),
+ADDRESS VARCHAR(150),
+AGE INT NOT NULL
+);
+
+
+
+INSERT INTO STUDENT1 (id, name, address, age)
+VALUES
+(1, 'Sapana', 'USA', 23),
+(2, 'Kritika', 'USA', 24),
+(3, 'Samjhna', 'UK', 25);
+
+
+SELECT * FROM STUDENT1
