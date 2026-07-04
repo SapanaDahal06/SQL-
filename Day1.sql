@@ -28,3 +28,11 @@ SELECT * FROM Customer;
 
 
 
+--Update Values 
+Update Customer
+Set Name= 'Sarina',Age = 29
+Where ID = 1;
+
+update Customer
+set City = 'Australia' , Age = 22
+where ID = 1;
