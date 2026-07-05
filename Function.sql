@@ -24,3 +24,5 @@ VALUES
 (108, 'Ava',     'IT',        27, 'Female', 'Dallas',      75000),
 (109, 'James',   'Sales',     31, 'Male',   'Miami',       62000),
 (110, 'Mia',     'Sales',     24, 'Female', 'San Diego',   60000);
+
+SELECT * FROM Employee;
