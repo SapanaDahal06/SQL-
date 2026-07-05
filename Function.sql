@@ -71,3 +71,7 @@ SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS Today;
 --AGGRERATE FUNCTON 
 SELECT COUNT(*)
 FROM Employee;
+
+
+SELECT SUM(Salary)
+FROM Employee;
