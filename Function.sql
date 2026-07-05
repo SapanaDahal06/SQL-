@@ -98,3 +98,8 @@ SELECT Department ,MIN(EmpID)
 From Employee
 group by Department;
 
+
+SELECT City 
+FROM Employee
+GROUP BY City
+HAVING MAX (Salary)> 70000;
