@@ -94,7 +94,7 @@ SELECT Gender ,MAX(age)
 FROM Employee
 GROUP BY Gender;
 
-SELECT Department ,MAX(EmpID)
+SELECT Department ,MIN(EmpID)
 From Employee
 group by Department;
 
