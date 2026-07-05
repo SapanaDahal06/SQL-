@@ -28,6 +28,8 @@ VALUES
 
 SELECT UPPER(EmpName) FROM Employee;
 SELECT LOWER(Gender) FROM Employee;
+SELECT SUM(Salary) AS TotalSalary
+FROM Employee;
 
 
 SELECT * FROM Employee;
