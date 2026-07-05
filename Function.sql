@@ -86,3 +86,10 @@ FROM Employee;
 
 SELECT MAX(Salary)
 FROM Employee;
+--GROUP BY 
+SELECT * FROM Employee;
+
+--GROUP BY 
+SELECT Gender ,MAX(age)
+FROM Employee
+GROUP BY Gender;
