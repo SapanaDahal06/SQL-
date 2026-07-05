@@ -58,3 +58,10 @@ FROM Employee;
 SELECT Department,
        REPLACE(Department, 'IT', 'Information Technology') AS NewDepartment
 FROM Employee;
+
+
+SELECT EmpName,
+REPLACE(EmpName , 'John','Jony')as NewEmpName
+FROM Employee;
+
+SELECT * FROM Employee;
