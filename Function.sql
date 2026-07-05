@@ -38,7 +38,7 @@ SELECT ROUND(AVG(Salary), 2) AS AverageSalary
 FROM Employee;
 
 SELECT EmpName,
-       SUBSTRING(EmpName, 1, 3) AS First3Letters
+       SUBSTRING(EmpName, 1, 4) AS First3Letters
 FROM Employee;
 
 SELECT * FROM Employee;
