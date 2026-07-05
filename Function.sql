@@ -41,4 +41,8 @@ SELECT EmpName,
        SUBSTRING(EmpName, 1, 4) AS First3Letters
 FROM Employee;
 
+
+SELECT EmpName, LEN(EmpName) AS NameLength
+FROM Employee;
+
 SELECT * FROM Employee;
