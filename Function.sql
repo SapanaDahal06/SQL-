@@ -48,4 +48,8 @@ FROM Employee;
 SELECT CONCAT(EmpName, ' - ', Department) AS EmployeeDetails
 FROM Employee;
 
-SELECT * FROM Employee;
+SELECT CONCAT('Mr.',EmpName) As Fullname
+FROM Employee;
+
+SELECT CONCAT('Hyy', EmpName) as lastname
+FROM Employee;
