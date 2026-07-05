@@ -65,3 +65,5 @@ REPLACE(EmpName , 'John','Jony')as NewEmpName
 FROM Employee;
 
 SELECT * FROM Employee;
+
+SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS Today;
