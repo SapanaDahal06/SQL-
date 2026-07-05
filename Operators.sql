@@ -83,3 +83,7 @@ SELECT *
 FROM Student
 WHERE Grade <> 'B';
 
+--LIMIT Clause 
+SELECT  TOP 5 * 
+FROM Student;
+
