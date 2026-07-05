@@ -82,3 +82,7 @@ FROM Employee;
 
 SELeCT MIN(Salary)
 FROM Employee;
+
+
+SELECT MAX(Salary)
+FROM Employee;
