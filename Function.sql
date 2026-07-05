@@ -75,3 +75,7 @@ FROM Employee;
 
 SELECT SUM(Salary)
 FROM Employee;
+
+
+SELECT AVG(Salary)
+FROM Employee;
