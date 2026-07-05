@@ -30,6 +30,11 @@ SELECT UPPER(EmpName) FROM Employee;
 SELECT LOWER(Gender) FROM Employee;
 SELECT SUM(Salary) AS TotalSalary
 FROM Employee;
+--MAX
+SELECT MAX(Salary) AS HighestSalary
+FROM Employee;
 
+SELECT ROUND(AVG(Salary), 2) AS AverageSalary
+FROM Employee;
 
 SELECT * FROM Employee;
