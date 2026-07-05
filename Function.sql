@@ -67,3 +67,7 @@ FROM Employee;
 SELECT * FROM Employee;
 
 SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS Today;
+
+--AGGRERATE FUNCTON 
+SELECT COUNT(*)
+FROM Employee;
