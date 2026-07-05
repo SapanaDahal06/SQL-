@@ -103,3 +103,10 @@ SELECT City
 FROM Employee
 GROUP BY City
 HAVING MAX (Salary)> 70000;
+
+
+
+SELECT Gender,
+       COUNT(*) AS TotalEmployees
+FROM Employee
+GROUP BY Gender;
