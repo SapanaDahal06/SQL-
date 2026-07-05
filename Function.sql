@@ -53,3 +53,8 @@ FROM Employee;
 
 SELECT CONCAT('Hyy', EmpName) as lastname
 FROM Employee;
+
+
+SELECT Department,
+       REPLACE(Department, 'IT', 'Information Technology') AS NewDepartment
+FROM Employee;
