@@ -10,3 +10,17 @@ CREATE TABLE Employee (
     City VARCHAR(30),
     Salary INT
 );
+
+
+INSERT INTO Employee (EmpID, EmpName, Department, Age, Gender, City, Salary)
+VALUES
+(101, 'John',    'IT',        25, 'Male',   'New York',    70000),
+(102, 'Emma',    'HR',        28, 'Female', 'Los Angeles', 65000),
+(103, 'David',   'Finance',   30, 'Male',   'Chicago',     80000),
+(104, 'Sophia',  'IT',        26, 'Female', 'New York',    72000),
+(105, 'Michael', 'Marketing', 35, 'Male',   'Boston',      68000),
+(106, 'Olivia',  'HR',        29, 'Female', 'Seattle',     66000),
+(107, 'Daniel',  'Finance',   32, 'Male',   'Houston',     85000),
+(108, 'Ava',     'IT',        27, 'Female', 'Dallas',      75000),
+(109, 'James',   'Sales',     31, 'Male',   'Miami',       62000),
+(110, 'Mia',     'Sales',     24, 'Female', 'San Diego',   60000);
