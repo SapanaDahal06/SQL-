@@ -27,7 +27,7 @@ VALUES
 --System Defined Function
 
 SELECT UPPER(EmpName) FROM Employee;
-
+SELECT LOWER(Gender) FROM Employee;
 
 
 SELECT * FROM Employee;
