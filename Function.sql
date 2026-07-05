@@ -45,4 +45,7 @@ FROM Employee;
 SELECT EmpName, LEN(EmpName) AS NameLength
 FROM Employee;
 
+SELECT CONCAT(EmpName, ' - ', Department) AS EmployeeDetails
+FROM Employee;
+
 SELECT * FROM Employee;
