@@ -117,3 +117,5 @@ SELECT Department,
        MIN(Salary) AS LowestSalary
 FROM Employee
 GROUP BY Department
+
+SHOW TIME;
