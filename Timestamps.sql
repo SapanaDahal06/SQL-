@@ -38,3 +38,7 @@ SELECT DATEPART(SECOND, GETDATE()) AS Second;
 
 --8. Extract DOW (Day of Week)
 SELECT DATEPART(WEEKDAY, GETDATE()) AS DayOfWeek;
+
+
+--9. Extract DOY (Day of Year)
+SELECT DATEPART(DAYOFYEAR, GETDATE()) AS DayOfYear;
