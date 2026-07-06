@@ -126,4 +126,5 @@ SELECT GETDATE();
 
 SELECT FORMAT(GETDATE(), 'dd-MM-yyyy');
 -- to know exact time 
+
 SELECT GETDATE() AS CurrentDateTime;
