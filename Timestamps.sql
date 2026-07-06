@@ -12,3 +12,7 @@ SELECT SYSDATETIMEOFFSET() AS CurrentDateTimeWithTimeZone;
 
 -- Formatted Date
 SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS FormattedDate;
+
+
+--1. Extract YEAR
+SELECT YEAR(GETDATE()) AS Year;
