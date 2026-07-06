@@ -118,4 +118,4 @@ SELECT Department,
 FROM Employee
 GROUP BY Department
 
-SHOW TIME;
+SELECT CURRENT_DATE;
