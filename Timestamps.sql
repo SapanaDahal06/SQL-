@@ -1,12 +1,5 @@
 use Company;
-SELECT CURRENT_DATE;
 
-SELECT CURRENT_TIMEZONE();
+-- Current Date
+SELECT CAST(GETDATE() AS DATE) AS CurrentDate;
 
-SELECT GETDATE();
-
-SELECT FORMAT(GETDATE(), 'dd-MM-yyyy');
-
--- to know exact time 
-
-SELECT GETDATE() AS CurrentDateTime;
