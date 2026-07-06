@@ -16,3 +16,6 @@ SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS FormattedDate;
 
 --1. Extract YEAR
 SELECT YEAR(GETDATE()) AS Year;
+
+--2. Extract MONTH
+SELECT MONTH(GETDATE()) AS Month;
