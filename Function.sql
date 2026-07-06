@@ -110,3 +110,11 @@ SELECT Gender,
        COUNT(*) AS TotalEmployees
 FROM Employee
 GROUP BY Gender;
+
+--Group by Department
+
+SELECT Department,
+       MIN(Salary) AS LowestSalary
+FROM Employee
+GROUP BY Department
+HAVING MIN(Salary) > 60000;
