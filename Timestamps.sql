@@ -9,3 +9,6 @@ SELECT GETDATE() AS CurrentDateTime;
 
 -- Current Date, Time, and Time Zone Offset
 SELECT SYSDATETIMEOFFSET() AS CurrentDateTimeWithTimeZone;
+
+-- Formatted Date
+SELECT FORMAT(GETDATE(), 'dd-MM-yyyy') AS FormattedDate;
