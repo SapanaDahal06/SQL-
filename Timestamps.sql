@@ -19,3 +19,6 @@ SELECT YEAR(GETDATE()) AS Year;
 
 --2. Extract MONTH
 SELECT MONTH(GETDATE()) AS Month;
+
+--3. Extract DAY
+SELECT DAY(GETDATE()) AS Day;
