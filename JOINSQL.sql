@@ -45,3 +45,7 @@ SELECT *
 FROM Student
 INNER JOIN Coursee
 ON Student.StudentName = Coursee.StudentName
+
+--LEFT JOIN 
+SELECT * 
+FROM Student
