@@ -55,3 +55,4 @@ ON Student.StudentName = Coursee.StudentName
 SELECT * 
 FROM Student
 RIGHT JOIN Coursee
+ON Student.StudentID = Coursee.StudentID
