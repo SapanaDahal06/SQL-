@@ -38,3 +38,4 @@ SELECT * FROM Coursee;
 SELECT *
 FROM Student
 INNER JOIN Coursee
+ON Student.StudentID = Coursee.StudentID
