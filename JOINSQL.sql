@@ -32,3 +32,5 @@ VALUES
 (3, 'Ramesh', 'Java', 78),
 (5, 'Hari', 'Django', 90),
 (6, 'Sarina', 'C++', 88);
+
+SELECT * FROM Coursee;
