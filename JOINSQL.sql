@@ -23,3 +23,10 @@ CREATE TABLE Course (
 );
 
 SELECT * FROM Course;
+
+INSERT INTO Course
+VALUES
+(101,1,'SQL',92),
+(102,2,'Python',85),
+(103,3,'Java',78),
+(104,5,'Django',90);
