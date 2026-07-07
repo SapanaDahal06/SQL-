@@ -49,3 +49,5 @@ ON Student.StudentName = Coursee.StudentName
 --LEFT JOIN 
 SELECT * 
 FROM Student
+LEFT JOIN Coursee
+ON Student.StudentName = Coursee.StudentName
