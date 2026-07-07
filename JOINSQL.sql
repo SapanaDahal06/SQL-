@@ -22,3 +22,4 @@ CREATE TABLE Course (
     Marks INT
 );
 
+SELECT * FROM Course;
