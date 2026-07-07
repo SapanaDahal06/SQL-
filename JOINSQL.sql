@@ -52,7 +52,13 @@ FROM Student
 LEFT JOIN Coursee
 ON Student.StudentName = Coursee.StudentName
 
+
+
+--RIGHT JOIN
 SELECT * 
 FROM Student
 RIGHT JOIN Coursee
 ON Student.StudentID = Coursee.StudentID
+
+--FULL JOIN
+SELECT * 
