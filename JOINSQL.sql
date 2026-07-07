@@ -43,3 +43,4 @@ ON Student.StudentID = Coursee.StudentID
 
 SELECT *
 FROM Student
+INNER JOIN Coursee
