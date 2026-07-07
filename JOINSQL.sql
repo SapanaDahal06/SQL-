@@ -62,3 +62,6 @@ ON Student.StudentID = Coursee.StudentID
 
 --FULL JOIN
 SELECT * 
+FROM Student
+FULL JOIN Coursee
+ON Student.StudentID = Coursee.StudentID
