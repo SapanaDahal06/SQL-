@@ -34,8 +34,12 @@ VALUES
 (6, 'Sarina', 'C++', 88);
 
 SELECT * FROM Coursee;
+
 --INNER JOIN 
 SELECT *
 FROM Student
 INNER JOIN Coursee
 ON Student.StudentID = Coursee.StudentID
+
+SELECT *
+FROM Student
