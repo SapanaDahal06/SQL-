@@ -16,3 +16,11 @@ VALUES
 (5, 'Priya', 'Gaighat', 25);
 
 SELECT * FROM Student;
+
+-- Course Table
+CREATE TABLE Coursee (
+    StudentID INT,
+    StudentName VARCHAR(50),
+    CourseName VARCHAR(50),
+    Marks INT
+);
