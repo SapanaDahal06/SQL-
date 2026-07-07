@@ -35,3 +35,6 @@ VALUES
 
 SELECT * FROM Coursee;
 --INNER JOIN 
+SELECT *
+FROM Student
+INNER JOIN Coursee
