@@ -14,3 +14,11 @@ VALUES
 (4,'Sita','Dharan');
 
 SELECT * FROM Student;
+
+CREATE TABLE Course (
+    CourseID INT PRIMARY KEY,
+    StudentID INT,
+    CourseName VARCHAR(50),
+    Marks INT
+);
+
