@@ -39,3 +39,4 @@ SELECT * FROM Course
 SELECT *
 FROM Student
 INNER JOIN Course
+ON Student.StudentID = Course.StudentID
