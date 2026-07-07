@@ -1,5 +1,8 @@
+USE Company;
 
-use Company;
+DROP TABLE IF EXISTS Coursee;
+DROP TABLE IF EXISTS Student;
+
 CREATE TABLE Student (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(50),
@@ -15,9 +18,6 @@ VALUES
 (4, 'Sita', 'Dharan', 20),
 (5, 'Priya', 'Gaighat', 25);
 
-SELECT * FROM Student;
-
--- Course Table
 CREATE TABLE Coursee (
     StudentID INT,
     StudentName VARCHAR(50),
@@ -30,38 +30,32 @@ VALUES
 (1, 'Sapana', 'SQL', 92),
 (2, 'Purnima', 'Python', 85),
 (3, 'Ramesh', 'Java', 78),
-(5, 'Hari', 'Django', 90),
+(5, 'Priya', 'Django', 90),
 (6, 'Sarina', 'C++', 88);
 
+SELECT * FROM Student;
 SELECT * FROM Coursee;
 
---INNER JOIN 
+-- INNER JOIN
 SELECT *
 FROM Student
 INNER JOIN Coursee
-ON Student.StudentID = Coursee.StudentID
+ON Student.StudentID = Coursee.StudentID;
 
+-- LEFT JOIN
 SELECT *
-FROM Student
-INNER JOIN Coursee
-ON Student.StudentName = Coursee.StudentName
-
---LEFT JOIN 
-SELECT * 
 FROM Student
 LEFT JOIN Coursee
-ON Student.StudentName = Coursee.StudentName
+ON Student.StudentID = Coursee.StudentID;
 
-
-
---RIGHT JOIN
-SELECT * 
+-- RIGHT JOIN
+SELECT *
 FROM Student
 RIGHT JOIN Coursee
-ON Student.StudentID = Coursee.StudentID
+ON Student.StudentID = Coursee.StudentID;
 
---FULL JOIN
-SELECT * 
+-- FULL JOIN
+SELECT *
 FROM Student
 FULL JOIN Coursee
-ON Student.StudentID = Coursee.StudentID
+ON Student.StudentID = Coursee.StudentID;
