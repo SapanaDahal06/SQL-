@@ -54,3 +54,4 @@ ON Student.StudentName = Coursee.StudentName
 
 SELECT * 
 FROM Student
+RIGHT JOIN Coursee
