@@ -12,3 +12,5 @@ VALUES
 (2,'Purnima','Pokhara'),
 (3,'Ramesh','Butwal'),
 (4,'Sita','Dharan');
+
+SELECT * FROM Student;
