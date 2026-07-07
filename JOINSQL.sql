@@ -23,3 +23,11 @@ CREATE TABLE Course (
     CourseName VARCHAR(50),
     Marks INT
 );
+
+INSERT INTO Course
+VALUES
+(1, 'Sapana', 'SQL', 92),
+(2, 'Purnima', 'Python', 85),
+(3, 'Ramesh', 'Java', 78),
+(5, 'Hari', 'Django', 90),
+(6, 'Sarina', 'C++', 88);
