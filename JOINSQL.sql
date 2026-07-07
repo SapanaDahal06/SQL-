@@ -18,9 +18,12 @@ CREATE TABLE Course (
     CourseName VARCHAR(50),
     Marks INT
 );
+
 INSERT INTO Course
 VALUES
-(1,'SQL',92),
-(2,'Python',85),
-(3,'Java',78),
-(5,'Django',90);
+(1, 'SQL', 92),
+(2, 'Python', 85),
+(3, 'Java', 78),
+(5, 'Django', 90);
+
+SELECT * FROM Course;
