@@ -34,3 +34,8 @@ VALUES
 
 SELECT * FROM Student
 SELECT * FROM Course
+
+--INNER JOIN 
+SELECT *
+FROM Student
+INNER JOIN Course
