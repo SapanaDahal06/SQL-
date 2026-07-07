@@ -14,3 +14,12 @@ VALUES
 (3, 'Ramesh', 'Butwal', 23),
 (4, 'Sita', 'Dharan', 20),
 (5, 'Hari', 'Biratnagar', 24);
+
+
+-- Course Table
+CREATE TABLE Course (
+    StudentID INT,
+    StudentName VARCHAR(50),
+    CourseName VARCHAR(50),
+    Marks INT
+);
