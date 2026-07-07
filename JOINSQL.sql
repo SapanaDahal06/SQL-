@@ -15,8 +15,8 @@ VALUES
 
 SELECT * FROM Student;
 
-CREATE TABLE Course (
 
+CREATE TABLE Course (
     StudentID INT,
     CourseName VARCHAR(50),
     Marks INT
@@ -26,7 +26,7 @@ SELECT * FROM Course;
 
 INSERT INTO Course
 VALUES
-(101,1,'SQL',92),
-(102,2,'Python',85),
-(103,3,'Java',78),
-(104,5,'Django',90);
+(1,'SQL',92)
+(2,'Python',85),
+(3,'Java',78),
+(5,'Django',90);
