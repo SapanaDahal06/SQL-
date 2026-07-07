@@ -51,3 +51,6 @@ SELECT *
 FROM Student
 LEFT JOIN Coursee
 ON Student.StudentName = Coursee.StudentName
+
+SELECT * 
+FROM Student
