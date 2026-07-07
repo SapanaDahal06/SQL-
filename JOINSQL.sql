@@ -34,3 +34,4 @@ VALUES
 (6, 'Sarina', 'C++', 88);
 
 SELECT * FROM Coursee;
+--INNER JOIN 
