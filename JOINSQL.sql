@@ -60,7 +60,4 @@ FROM Student
 FULL JOIN Coursee
 ON Student.StudentID = Coursee.StudentID;
 
-SELECT * 
-FROM Student
-FULL JOIN Coursee
-ON Student.t StudentName = Coursee.Student.StudentName;
+SELECT *
