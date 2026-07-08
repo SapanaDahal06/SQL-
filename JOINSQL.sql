@@ -63,4 +63,4 @@ ON Student.StudentID = Coursee.StudentID;
 SELECT * 
 FROM Student
 FULL JOIN Coursee
-ON Student.t StudentName = 
+ON Student.t StudentName = Coursee
