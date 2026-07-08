@@ -62,3 +62,4 @@ ON Student.StudentID = Coursee.StudentID;
 
 SELECT * 
 FROM Student
+FULL JOIN Coursee
