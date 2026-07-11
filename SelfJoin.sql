@@ -50,3 +50,5 @@ Values
 ('belika','dharan','B'),
 ('gina','Butwal','C'),
 ('kylyee','Chitwan','A');
+
+SELECT * FROM student1
