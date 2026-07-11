@@ -54,9 +54,10 @@ VALUES
 ('Gigi', 'USA', 'C'),
 ('Kenny', 'NYC', 'A');
 
+SELECT *
+FROM Student1
 
-SELECT * FROM Student2;
+UNION
 
-
-
-SELECT * FROM Student2;
+SELECT *
+FROM Student2;
