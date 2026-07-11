@@ -61,3 +61,13 @@ UNION
 
 SELECT *
 FROM Student2;
+
+
+SELECT *
+FROM Student1
+
+UNION ALL
+
+SELECT *
+FROM Student2;
+
