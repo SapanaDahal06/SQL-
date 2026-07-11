@@ -16,3 +16,5 @@ VALUES
 (6,'Sarah','Sales',65000);
 
 SELECT * FROM Employeee
+
+
