@@ -8,4 +8,5 @@ ManagerID int
 SELECT * FROM Employe;
 Insert  into Employe 
 Values
-(1 'sherya',10)
+(1, 'sherya',10)
+(2,'prabisha',20)
