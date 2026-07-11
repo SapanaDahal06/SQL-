@@ -37,3 +37,16 @@ Values
 ('bella','ght','B'),
 ('gigi','USA','C'),
 ('kenny','NYC','A');
+
+
+create table student2 (
+Name varchar(50),
+Address varchar(60),
+ Grade int
+);
+INSERT into student1
+Values 
+('sriza','pokhara','A'),
+('belika','dharan','B'),
+('gina','Butwal','C'),
+('kylyee','Chitwan','A');
