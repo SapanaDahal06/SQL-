@@ -26,29 +26,37 @@ ON E.ManagerID = M.EmpID;
 
 
 
-create table student1 (
-Name varchar(50),
-Address varchar(60),
- Grade int
+CREATE TABLE Student1 (
+    Name VARCHAR(50),
+    Address VARCHAR(60),
+    Grade CHAR(1)
 );
-INSERT into student1
-Values 
-('srina','ktm','A'),
-('bella','ght','B'),
-('gigi','USA','C'),
-('kenny','NYC','A');
+
+INSERT INTO Student1
+VALUES
+('Sarina', 'KTM', 'A'),
+('Bella', 'GHT', 'B'),
+('Gigi', 'USA', 'C'),
+('Kenny', 'NYC', 'A');
+SELECT * FROM Student1;
 
 
-create table student2 (
-Name varchar(50),
-Address varchar(60),
- Grade int
+CREATE TABLE Student2 (
+    Name VARCHAR(50),
+    Address VARCHAR(60),
+    Grade CHAR(1)
 );
-INSERT into student1
-Values 
-('sriza','pokhara','A'),
-('belika','dharan','B'),
-('gina','Butwal','C'),
-('kylyee','Chitwan','A');
 
-SELECT * FROM student1
+INSERT INTO Student2
+VALUES
+('Sarina', 'KTM', 'A'),
+('Bella', 'GHT', 'B'),
+('Gigi', 'USA', 'C'),
+('Kenny', 'NYC', 'A');
+
+
+SELECT * FROM Student2;
+
+
+
+SELECT * FROM Student2;
