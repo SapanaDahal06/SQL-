@@ -15,6 +15,7 @@ VALUES
 (4, 'Khusi', 2);
 
 SELECT * FROM Emp;
+
 SELECT
     E.EmpID,
     E.EmpName AS Employee,
