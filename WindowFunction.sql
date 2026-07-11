@@ -18,3 +18,9 @@ VALUES
 SELECT * FROM Employeee
 
 
+SELECT
+    ROW_NUMBER() OVER(ORDER BY Salary DESC) AS RowNum,
+    EmpName,
+    Department,
+    Salary
+FROM Employeee;
