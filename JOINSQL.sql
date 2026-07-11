@@ -65,6 +65,3 @@ FROM Student
 FULL JOIN Coursee
 ON Student.StudentName = Coursee.StudentName;
 
-
-SELECT * 
-FROM Student
