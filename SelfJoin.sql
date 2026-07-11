@@ -23,3 +23,17 @@ SELECT
 FROM Emp AS E
 LEFT JOIN Emp AS M
 ON E.ManagerID = M.EmpID;
+
+
+
+create table student1 (
+Name varchar(50),
+Address varchar(60),
+ Grade int
+);
+INSERT into student1
+Values 
+('srina','ktm','A'),
+('bella','ght','B'),
+('gigi','USA','C'),
+('kenny','NYC','A');
