@@ -5,3 +5,4 @@ EmpID INT PRIMARY KEY,
 EmpName VARCHAR(50),
 ManagerID int
 );
+SELECT * FROM Employe;
