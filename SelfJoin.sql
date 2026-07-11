@@ -15,3 +15,12 @@ Values
 (3, 'Anshula' , 2),
 (4, 'Khusi',1);
 
+--SELF JOIN
+
+SELECT
+    E.EmpID,
+    E.EmpName AS Employee,
+    M.EmpName AS Manager
+FROM Employe AS E
+LEFT JOIN Employe AS M
+ON E.ManagerID = M.EmpID;
