@@ -14,3 +14,5 @@ VALUES
 (4,'David','HR',70000),
 (5,'Mike','Sales',60000),
 (6,'Sarah','Sales',65000);
+
+SELECT * FROM Employeee
