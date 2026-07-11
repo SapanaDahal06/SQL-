@@ -13,3 +13,5 @@ VALUES
 (2, 'Prabisha', 1),
 (3, 'Anshula', 1),
 (4, 'Khusi', 2);
+
+SELECT * FROM Emp;
