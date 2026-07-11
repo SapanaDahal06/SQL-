@@ -117,14 +117,3 @@ SELECT Department,
        MIN(Salary) AS LowestSalary
 FROM Employee
 GROUP BY Department
-
-SELECT CURRENT_DATE;
-
-SELECT CURRENT_TIMEZONE();
-
-SELECT GETDATE();
-
-SELECT FORMAT(GETDATE(), 'dd-MM-yyyy');
--- to know exact time 
-
-SELECT GETDATE() AS CurrentDateTime;
