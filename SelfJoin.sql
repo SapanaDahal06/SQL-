@@ -15,3 +15,10 @@ VALUES
 (4, 'Khusi', 2);
 
 SELECT * FROM Emp;
+SELECT
+    E.EmpID,
+    E.EmpName AS Employee,
+    M.EmpName AS Manager
+FROM Emp AS E
+LEFT JOIN Emp AS M
+ON E.ManagerID = M.EmpID;
