@@ -21,5 +21,7 @@ SELECT * FROM Employe1
 SELECT
     EmpName,
     Salary,
-    ROW_NUMBER() OVER(ORDER BY Salary DESC) AS RowNum
+    ROW_NUMBER() OVER
+    (ORDER BY Salary ASC)
+    AS RowNumt 
 FROM Employe1;
