@@ -21,3 +21,4 @@ SELECT * FROM Employe1
 SELECT
 EmpName,
 salary,
+ROW_NUMBER()
