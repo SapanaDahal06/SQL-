@@ -48,3 +48,12 @@ Department,
 Salary,
 RANK() OVER (ORDER BY Salary desc) RankNO
 FROM Employe1;
+
+
+--DENSE_RANK()
+
+SELECT 
+EmpName,
+salary,
+DENSE_RANK () OVER (ORDER BY Salary desc) DENSE_RANK
+FROM Employe1;
