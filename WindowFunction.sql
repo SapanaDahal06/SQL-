@@ -32,3 +32,11 @@ EmpName,
 Salary,
 RANK()OVER(ORDER  BY Salary DESC) AS RankNo
 FROM Employe1;
+
+
+SELECT 
+EmpName,
+Department,
+salary,
+RANK() Over (ORDER BY Salary DESC ) AS RankNo
+FROM Employe1;
