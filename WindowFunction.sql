@@ -19,8 +19,3 @@ SELECT * FROM Employe1
 
 
 SELECT
-    ROW_NUMBER() OVER(ORDER BY Salary DESC) AS RowNum,
-    EmpName,
-    Department,
-    Salary
-FROM Employe1;
