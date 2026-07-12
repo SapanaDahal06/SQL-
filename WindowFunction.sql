@@ -21,4 +21,4 @@ SELECT * FROM Employe1
 SELECT
 EmpName,
 salary,
-ROW_NUMBER()
+ROW_NUMBER()OVER (ORDER BY Salary DESC)
