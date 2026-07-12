@@ -19,4 +19,5 @@ SELECT * FROM Employe1
 
 
 SELECT
-EmpName
+EmpName,
+salary,
