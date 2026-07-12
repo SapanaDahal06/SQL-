@@ -29,3 +29,5 @@ FROM Employe1;
 --RANK
 SELECT
 EmpName,
+Salary,
+RANK()OVER(ORDER  BY Salary DESC) AS RankNo
