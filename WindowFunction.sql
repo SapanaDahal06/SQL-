@@ -17,7 +17,7 @@ VALUES
 
 SELECT * FROM Employe1
 
-
+--ROW_NUMBER
 SELECT
     EmpName,
     Salary,
@@ -25,3 +25,7 @@ SELECT
     (ORDER BY Salary ASC)
     AS RowNumt 
 FROM Employe1;
+
+--RANK
+SELECT
+EmpName,
