@@ -46,5 +46,5 @@ EmpID,
 EmpName,
 Department,
 Salary,
-RANK() OVER (ORDER BY Salary Asc) RankNO
+RANK() OVER (ORDER BY Salary desc) RankNO
 FROM Employe1;
