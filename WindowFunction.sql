@@ -31,3 +31,4 @@ SELECT
 EmpName,
 Salary,
 RANK()OVER(ORDER  BY Salary DESC) AS RankNo
+FROM Employe1;
