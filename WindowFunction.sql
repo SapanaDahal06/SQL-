@@ -1,12 +1,12 @@
 use Company;
-CREATE TABLE Employeee (
+CREATE TABLE Employe1 (
     EmpID INT PRIMARY KEY,
     EmpName VARCHAR(50),
     Department VARCHAR(30),
     Salary INT
 );
 
-INSERT INTO Employeee
+INSERT INTO Employe1
 VALUES
 (1,'John','IT',70000),
 (2,'Emma','IT',90000),
@@ -15,7 +15,7 @@ VALUES
 (5,'Mike','Sales',60000),
 (6,'Sarah','Sales',65000);
 
-SELECT * FROM Employeee
+SELECT * FROM Employe1
 
 
 SELECT
@@ -23,4 +23,4 @@ SELECT
     EmpName,
     Department,
     Salary
-FROM Employeee;
+FROM Employe1;
