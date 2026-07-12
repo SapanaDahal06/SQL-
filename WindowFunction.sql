@@ -19,7 +19,7 @@ SELECT * FROM Employe1
 
 
 SELECT
-EmpName,
-salary,
-ROW_NUMBER()OVER (ORDER BY Salary DESC)
-AS RowNum
+    EmpName,
+    Salary,
+    ROW_NUMBER() OVER(ORDER BY Salary DESC) AS RowNum
+FROM Employe1;
