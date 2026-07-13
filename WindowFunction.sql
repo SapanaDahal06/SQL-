@@ -80,7 +80,7 @@ FROM Employe1;
 
 SELECT
 SaleDate,
-    Sales,
+Sales,
     LAG(Sales) OVER (ORDER BY SaleDate) AS PreviousSales,
     Sales - LAG(Sales) OVER (ORDER BY SaleDate) AS SalesChange
 FROM DailySales;
