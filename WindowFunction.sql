@@ -63,3 +63,7 @@ SELECT
     Salary,
     DENSE_RANK() OVER(ORDER BY Salary DESC) AS DenseRank
 FROM Employe1;
+
+
+SELECT 
+EmpName,
