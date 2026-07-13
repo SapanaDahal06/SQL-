@@ -76,4 +76,4 @@ EmpName,
 Salary,
 LAG(Salary) OVER (ORDER BY Salary DESC) AS PreviousSalary
 Salary - LAG(Salary) OVER (ORDER BY Salary DESC) AS SalaryDifference
-      FROM Employe1;
+FROM Employe1;
