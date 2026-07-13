@@ -70,3 +70,5 @@ EmpName,
 Salary,
 LAG(Salary) OVER (ORDER BY Salary DESC) As previousSalary 
 From Employe1;
+
+SELECT
