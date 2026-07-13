@@ -68,4 +68,5 @@ FROM Employe1;
 SELECT 
 EmpName,
 Salary,
-LAG(Salary) OVER (ORDER BY Salary DESC) As previousSalary
+LAG(Salary) OVER (ORDER BY Salary DESC) As previousSalary 
+From Employe1;
