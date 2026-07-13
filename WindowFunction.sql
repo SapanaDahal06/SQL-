@@ -74,6 +74,6 @@ From Employe1;
 SELECT
 EmpName,
 Salary,
-    LAG(Salary) OVER (ORDER BY Salary DESC) AS PreviousSalary
+LAG(Salary) OVER (ORDER BY Salary DESC) AS PreviousSalary
       Salary - LAG(Salary) OVER (ORDER BY Salary DESC) AS SalaryDifference
-      FROM
+      FROM Employe1;
