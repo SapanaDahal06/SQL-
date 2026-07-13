@@ -79,7 +79,7 @@ Salary - LAG(Salary) OVER (ORDER BY Salary DESC) AS SalaryDifference
 FROM Employe1;
 
 SELECT
-    SaleDate,
+SaleDate,
     Sales,
     LAG(Sales) OVER (ORDER BY SaleDate) AS PreviousSales,
     Sales - LAG(Sales) OVER (ORDER BY SaleDate) AS SalesChange
