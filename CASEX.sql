@@ -79,5 +79,10 @@ EmpName,
 Age,
 CASE
      WHEN Age >= 30 THEN 'Senior Employee'
+     WHEN Age >=25 THEN 'Mid-level Employee'
+     WHEN Age < 20 THEN 'Junior Employee'
+     ELSE 'Main Employee'
+END AS AgeCategory
+FROM Employee2;
 
 
