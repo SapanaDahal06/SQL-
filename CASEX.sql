@@ -42,4 +42,5 @@ EmpName,
 city,
 CASE 
      WHEN City = 'Kathmandu' THEN 'HEAD OFFICE'
-     ELSE 
+     ELSE 'Brancha office'
+     END AS OfficeType
