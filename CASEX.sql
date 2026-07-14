@@ -36,3 +36,10 @@ SELECT
         ELSE 'Normal Salary'
     END AS SalaryStatus
 FROM Employee2;
+
+SELECT 
+EmpName,
+city,
+CASE 
+     WHEN City = 'Kathmandu' THEN 'HEAD OFFICE'
+     ELSE 
