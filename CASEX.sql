@@ -67,7 +67,7 @@ SELECT
         WHEN City = 'Kathmandu' THEN 'Capital City'
         WHEN City = 'Pokhara' THEN 'Tourist City'
         WHEN City = 'Butwal' THEN 'Industrial City'
-        WHEN City
+        WHEN City = 'Biratnagar' THEN 'Second large City'
         ELSE 'Other City'
     END AS CityCategory
 FROM Employee2;
