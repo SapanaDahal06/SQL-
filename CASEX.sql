@@ -13,3 +13,5 @@ CREATE TABLE Employee2 (
 
 INSERT INTO Employee2 
 VALUES 
+(101,'Alice' ,'IT','Kathamandu','M',29,45000),
+(102,'
