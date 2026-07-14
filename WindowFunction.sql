@@ -89,3 +89,4 @@ FROM Employe1;
 SELECT
 EmpName,
 Salary,
+    LEAD(Salary) OVER (ORDER BY Salary DESC) AS NextSalary
