@@ -92,8 +92,9 @@ Salary,
 LEAD(Salary) OVER (ORDER BY Salary DESC) AS NextSalary
 FROM Employe1;
 
-SELECT 
-EmpName,
-Salary,
-LEAD(Salary) OVER (ORDER BY Salary DESC) AS NextEmployee
+
+SELECT
+    EmpName,
+    Salary,
+    LEAD(EmpName) OVER (ORDER BY Salary DESC) AS NextEmployee
 FROM Employe1;
