@@ -28,6 +28,12 @@ VALUES
 SELECT * FROM Employee2;
 
 --case expression 
-CASE 
+
+SELECT 
+EmpName,
+
+
 WHEN Salary >= 80000 THEN "High Salary"
 ELSE 
+"Normal Salary"
+END 
