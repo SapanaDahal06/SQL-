@@ -88,3 +88,4 @@ FROM Employe1;
 --LEAD 
 SELECT
 EmpName,
+Salary,
