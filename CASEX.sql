@@ -50,13 +50,13 @@ CASE
 
      --Another one 
      SELECT 
-     EmpaName,
+     EmpName,
      Age,
      CASE 
-     WHEN Age = 'F' THEN 'Girls'
-     ELSE 'BOYS'
-    END OF GENDER
-
+         WHEN Age = 'F' THEN 'Girls'
+         ELSE 'Boys'
+         END AS GENDER
+         FROM Employee2;
 
 
 
