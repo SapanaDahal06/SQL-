@@ -31,8 +31,8 @@ SELECT * FROM Employee2;
 
 SELECT 
 EmpName,
-
-
+Salary,
+CASE
 WHEN Salary >= 80000 THEN "High Salary"
 ELSE 
 "Normal Salary"
