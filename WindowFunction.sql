@@ -98,3 +98,10 @@ SELECT
     Salary,
     LEAD(EmpName) OVER (ORDER BY Salary DESC) AS NextEmployee
 FROM Employe1;
+
+
+SELECT
+    EmpName,
+    Salary,
+    LEAD(Salary, 2) OVER (ORDER BY Salary DESC) AS SalaryAfterTwoRows
+FROM Employe1;
