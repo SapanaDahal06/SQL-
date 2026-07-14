@@ -19,3 +19,8 @@ VALUES
 (104, 'Diana',   'HR',        'Kathmandu', 'F', 26, 61000),
 (105, 'Ethan',   'Sales',     'Biratnagar','M', 29, 68000),
 (106, 'Fiona',   'Sales',     'Pokhara',   'F', 25, 68000),
+
+(107, 'George',  'Finance',   'Dharan',    'M', 31, 93000),
+(108, 'Helen',   'Finance',   'Kathmandu', 'F', 28, 93000),
+(109, 'Ian',     'Marketing', 'Butwal',    'M', 26, 55000),
+(110, 'Julia',   'Marketing', 'Pokhara',   'F', 23, 55000);
