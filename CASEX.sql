@@ -47,3 +47,14 @@ CASE
      ELSE 'Brancha office'
      END AS OfficeType
      FROM Employee2;
+
+     --Another one 
+     SELECT 
+     EmpaName,
+     Age,
+     CASE 
+
+
+
+
+
