@@ -78,5 +78,6 @@ SELECT
 EmpName,
 Age,
 CASE
+     WHEN Age >= 30 THEN 'Senior Employee'
 
 
