@@ -94,3 +94,4 @@ FROM Employe1;
 
 SELECT 
 EmpName,
+Salary,
