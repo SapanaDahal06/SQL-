@@ -37,6 +37,8 @@ SELECT
     END AS SalaryStatus
 FROM Employee2;
 
+
+--Another example
 SELECT 
 EmpName,
 city,
@@ -44,3 +46,4 @@ CASE
      WHEN City = 'Kathmandu' THEN 'HEAD OFFICE'
      ELSE 'Brancha office'
      END AS OfficeType
+     FROM Employee2;
