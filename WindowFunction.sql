@@ -84,3 +84,6 @@ Salary,
 Department,
 LAG(Department) OVER (ORDER BY Salary DESC) AS PreviousSalary
 FROM Employe1;
+
+--LEAD 
+SELECT
