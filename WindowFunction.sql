@@ -64,7 +64,7 @@ SELECT
     DENSE_RANK() OVER(ORDER BY Salary DESC) AS DenseRank
 FROM Employe1;
 
-
+ -- LAG AND LEAD 
 SELECT 
 EmpName,
 Salary,
@@ -78,9 +78,3 @@ LAG(Salary) OVER (ORDER BY Salary DESC) AS PreviousSalary,
 Salary - LAG(Salary) OVER (ORDER BY Salary DESC) AS SalaryDifference
 FROM Employe1;
 
-SELECT
-SaleDate,
-Sales,
-LAG(Sales) OVER (ORDER BY SaleDate) AS PreviousSales,
-    Sales - LAG(Sales) OVER (ORDER BY SaleDate) AS SalesChange
-FROM DailySales;
