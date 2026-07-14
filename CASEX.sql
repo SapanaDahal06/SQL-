@@ -74,3 +74,9 @@ FROM Employee2;
 
 
 
+SELECT
+EmpName,
+Age,
+CASE
+
+
