@@ -82,4 +82,4 @@ SELECT
 EmpName,
 Salary,
 Department,
-LAG(Department) OVER (ORDER BY 
+LAG(Department) OVER (ORDER BY Salary DESC) AS PreviousSalary,
