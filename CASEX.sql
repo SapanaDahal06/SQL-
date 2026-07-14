@@ -10,3 +10,6 @@ CREATE TABLE Employee2 (
     Age INT,
     Salary INT
 );
+
+INSERT INTO Employee2 
+VALUES 
