@@ -82,3 +82,4 @@ SELECT
 EmpName,
 Salary,
 Department,
+LAG(Department) 
