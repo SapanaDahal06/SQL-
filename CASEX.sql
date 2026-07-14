@@ -60,5 +60,16 @@ CASE
 
 
 
+SELECT
+    EmpName,
+    City,
+    CASE
+        WHEN City = 'Kathmandu' THEN 'Capital City'
+        WHEN City = 'Pokhara' THEN 'Tourist City'
+        WHEN City = 'Butwal' THEN 'Industrial City'
+        ELSE 'Other City'
+    END AS CityCategory
+FROM Employee2;
+
 
 
