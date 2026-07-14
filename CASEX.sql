@@ -13,5 +13,9 @@ CREATE TABLE Employee2 (
 
 INSERT INTO Employee2 
 VALUES 
-(101,'Alice' ,'IT','Kathamandu','M',29,45000),
-(102,'
+(101, 'Alice',   'IT',        'Kathmandu', 'F', 24, 85000),
+(102, 'Bob',     'IT',        'Pokhara',   'M', 27, 72000),
+(103, 'Charlie', 'HR',        'Butwal',    'M', 30, 58000),
+(104, 'Diana',   'HR',        'Kathmandu', 'F', 26, 61000),
+(105, 'Ethan',   'Sales',     'Biratnagar','M', 29, 68000),
+(106, 'Fiona',   'Sales',     'Pokhara',   'F', 25, 68000),
