@@ -53,6 +53,10 @@ CASE
      EmpaName,
      Age,
      CASE 
+     WHEN Age = 'F' THEN 'Girls'
+     ELSE 'BOYS'
+    END OF GENDER
+
 
 
 
