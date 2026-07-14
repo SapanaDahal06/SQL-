@@ -82,4 +82,4 @@ SELECT
 EmpName,
 Salary,
 Department,
-LAG(Department) 
+LAG(Department) OVER (ORDER BY 
