@@ -109,7 +109,7 @@ SELECT
         WHEN City = 'Biratnagar' THEN 'Second Largest City'
         ELSE 'Other City'
     END AS CityCategory
-FROM Employee2;
+FROM Employee20;
 
 -- ==========================================
 -- CASE Example 5
