@@ -124,3 +124,5 @@ SELECT
         ELSE 'Junior Employee'
     END AS AgeCategory
 FROM Employee20;
+
+--CASE WITH SQL
