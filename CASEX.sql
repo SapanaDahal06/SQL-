@@ -129,4 +129,6 @@ FROM Employee20;
 WITH HighSalaryEmployee20 AS 
 (
 SELECT *
+FROM Employee20
+
 )
