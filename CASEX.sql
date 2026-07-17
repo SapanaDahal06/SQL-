@@ -131,7 +131,18 @@ WITH HighSalaryEmployee20  AS
 SELECT *
 FROM Employee20
 WHERE Salary >= 70000
+),
+
+TotalSalary As (
+SELECT SUM(Salary) As TotalSalary
+FROM Employee20
 )
+
+
+
+
 SELECT * 
 FROM
 HighSalaryEmployee20;
+
+
