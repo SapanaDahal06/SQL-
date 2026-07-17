@@ -93,7 +93,7 @@ SELECT
         WHEN Gender = 'F' THEN 'Girls'
         ELSE 'Boys'
     END AS GenderCategory
-FROM Employee2;
+FROM Employee20;
 
 -- ==========================================
 -- CASE Example 4
