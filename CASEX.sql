@@ -125,6 +125,8 @@ SELECT
     END AS AgeCategory
 FROM Employee20;
 
+
+
 --CASE WITH SQL
 WITH HighSalaryEmployee20  AS 
 (
@@ -139,10 +141,11 @@ FROM Employee20
 )
 
 
-
-
-SELECT * 
-FROM
-HighSalaryEmployee20;
+SELECT
+    H.EmpName,
+    H.Salary,
+    T.TotalSalary
+FROM HighSalaryEmployee AS H
+CROSS JOIN TotalSalary AS T;
 
 
