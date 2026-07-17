@@ -130,5 +130,8 @@ WITH HighSalaryEmployee20 AS
 (
 SELECT *
 FROM Employee20
-
+WHERE Salary >= 70000
 )
+SELECT * 
+FROM
+HighSalaryEmployee20;
