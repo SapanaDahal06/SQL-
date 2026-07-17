@@ -126,20 +126,18 @@ SELECT
 FROM Employee20;
 
 
-
---CASE WITH SQL
-WITH HighSalaryEmployee20  AS 
+WITH HighSalaryEmployee AS
 (
-SELECT *
-FROM Employee20
-WHERE Salary >= 70000
+    SELECT *
+    FROM Employee2
+    WHERE Salary >= 70000
 ),
 
-TotalSalary As (
-SELECT SUM(Salary) As TotalSalary
-FROM Employee20
+TotalSalary AS
+(
+    SELECT SUM(Salary) AS TotalSalary
+    FROM Employee2
 )
-
 
 SELECT
     H.EmpName,
@@ -147,5 +145,3 @@ SELECT
     T.TotalSalary
 FROM HighSalaryEmployee AS H
 CROSS JOIN TotalSalary AS T;
-
-
