@@ -2,7 +2,7 @@
 USE ABC;
 
 -- Create Employee Table
-CREATE TABLE Employee2 (
+CREATE TABLE Employe2 (
     EmpID INT PRIMARY KEY,
     EmpName VARCHAR(50),
     Department VARCHAR(30),
@@ -12,7 +12,7 @@ CREATE TABLE Employee2 (
     Salary INT
 );
 
-INSERT INTO Employee2
+INSERT INTO Employe2
 VALUES
 (101, 'Alice',   'IT',        'Kathmandu', 'F', 24, 85000),
 (102, 'Bob',     'IT',        'Pokhara',   'M', 27, 72000),
@@ -25,7 +25,7 @@ VALUES
 (109, 'Ian',     'Marketing', 'Butwal',    'M', 26, 55000),
 (110, 'Julia',   'Marketing', 'Pokhara',   'F', 23, 55000);
 
-SELECT * FROM Employee2;
+SELECT * FROM Employe2;
 
 --case expression 
 SELECT
@@ -35,7 +35,7 @@ SELECT
         WHEN Salary >= 80000 THEN 'High Salary'
         ELSE 'Normal Salary'
     END AS SalaryStatus
-FROM Employee2;
+FROM Employe2;
 
 
 --Another example
@@ -46,7 +46,7 @@ CASE
      WHEN City = 'Kathmandu' THEN 'HEAD OFFICE'
      ELSE 'Brancha office'
      END AS OfficeType
-     FROM Employee2;
+     FROM Employe2;
 
      --Another one 
      SELECT 
@@ -56,7 +56,7 @@ CASE
          WHEN Gender = 'F' THEN 'Girls'
          ELSE 'Boys'
          END AS GENDER
-         FROM Employee2;
+         FROM Employe2;
 
 
 
@@ -67,10 +67,10 @@ SELECT
         WHEN City = 'Kathmandu' THEN 'Capital City'
         WHEN City = 'Pokhara' THEN 'Tourist City'
         WHEN City = 'Butwal' THEN 'Industrial City'
-        WHEN City = 'Biratnagar' THEN 'Second large City'
+        WHEN City = 'Biratnagar' THEN 'Second Largest City'
         ELSE 'Other City'
     END AS CityCategory
-FROM Employee2;
+FROM Employe2;
 
 
 
@@ -86,3 +86,7 @@ SELECT
         ELSE 'Junior Employee'
     END AS AgeCategory
 FROM Employee2;
+
+
+
+SELECT * FROM Employee2;
