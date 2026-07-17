@@ -80,7 +80,7 @@ SELECT
         WHEN City = 'Kathmandu' THEN 'Head Office'
         ELSE 'Branch Office'
     END AS OfficeType
-FROM Employee2;
+FROM Employee20;
 
 -- ==========================================
 -- CASE Example 3
