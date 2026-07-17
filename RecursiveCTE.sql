@@ -6,3 +6,5 @@ WITH Number AS
 SELECT 1 AS Number
 )
 
+SELECT * 
+FROM Number;
