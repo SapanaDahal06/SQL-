@@ -1,2 +1,2 @@
 use ABC;
-SELECT 1 + 1  AS Number;
+SELECT 2 + 1  AS Number;
