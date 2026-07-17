@@ -123,4 +123,4 @@ SELECT
         WHEN Age >= 25 THEN 'Mid-level Employee'
         ELSE 'Junior Employee'
     END AS AgeCategory
-FROM Employee2;
+FROM Employee20;
