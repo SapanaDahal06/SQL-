@@ -67,7 +67,7 @@ SELECT
         WHEN Salary >= 80000 THEN 'High Salary'
         ELSE 'Normal Salary'
     END AS SalaryStatus
-FROM Employee2;
+FROM Employee20;
 
 -- ==========================================
 -- CASE Example 2
