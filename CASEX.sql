@@ -37,7 +37,7 @@ GO
 -- ==========================================
 -- Insert Data
 -- ==========================================
-INSERT INTO Employee2
+INSERT INTO Employee20
 VALUES
 (101, 'Alice',   'IT',        'Kathmandu', 'F', 24, 85000),
 (102, 'Bob',     'IT',        'Pokhara',   'M', 27, 72000),
