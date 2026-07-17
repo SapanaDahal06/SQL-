@@ -126,7 +126,7 @@ SELECT
 FROM Employee20;
 
 --CASE WITH SQL
-WITH HighSalaryEmployee20 AS 
+WITH HighSalaryEmployee20  AS 
 (
 SELECT *
 FROM Employee20
