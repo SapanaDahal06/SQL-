@@ -1,8 +1,29 @@
+-- ==========================================
+-- Create Database
+-- ==========================================
+IF DB_ID('ABC') IS NULL
+BEGIN
+    CREATE DATABASE ABC;
+END
+GO
 
 USE ABC;
+GO
 
--- Create Employee Table
-CREATE TABLE Employe2 (
+-- ==========================================
+-- Delete table if it already exists
+-- ==========================================
+IF OBJECT_ID('Employee20', 'U') IS NOT NULL
+BEGIN
+    DROP TABLE Employee20;
+END
+GO
+
+-- ==========================================
+-- Create Employee2 Table
+-- ==========================================
+CREATE TABLE Employee20
+(
     EmpID INT PRIMARY KEY,
     EmpName VARCHAR(50),
     Department VARCHAR(30),
@@ -11,8 +32,12 @@ CREATE TABLE Employe2 (
     Age INT,
     Salary INT
 );
+GO
 
-INSERT INTO Employe2
+-- ==========================================
+-- Insert Data
+-- ==========================================
+INSERT INTO Employee2
 VALUES
 (101, 'Alice',   'IT',        'Kathmandu', 'F', 24, 85000),
 (102, 'Bob',     'IT',        'Pokhara',   'M', 27, 72000),
@@ -24,10 +49,17 @@ VALUES
 (108, 'Helen',   'Finance',   'Kathmandu', 'F', 28, 93000),
 (109, 'Ian',     'Marketing', 'Butwal',    'M', 26, 55000),
 (110, 'Julia',   'Marketing', 'Pokhara',   'F', 23, 55000);
+GO
 
-SELECT * FROM Employe2;
+-- ==========================================
+-- Display Table
+-- ==========================================
+SELECT * FROM Employee2;
 
---case expression 
+-- ==========================================
+-- CASE Example 1
+-- Salary Status
+-- ==========================================
 SELECT
     EmpName,
     Salary,
@@ -35,31 +67,38 @@ SELECT
         WHEN Salary >= 80000 THEN 'High Salary'
         ELSE 'Normal Salary'
     END AS SalaryStatus
-FROM Employe2;
+FROM Employee2;
 
+-- ==========================================
+-- CASE Example 2
+-- Office Type
+-- ==========================================
+SELECT
+    EmpName,
+    City,
+    CASE
+        WHEN City = 'Kathmandu' THEN 'Head Office'
+        ELSE 'Branch Office'
+    END AS OfficeType
+FROM Employee2;
 
---Another example
-SELECT 
-EmpName,
-city,
-CASE 
-     WHEN City = 'Kathmandu' THEN 'HEAD OFFICE'
-     ELSE 'Brancha office'
-     END AS OfficeType
-     FROM Employe2;
+-- ==========================================
+-- CASE Example 3
+-- Gender
+-- ==========================================
+SELECT
+    EmpName,
+    Gender,
+    CASE
+        WHEN Gender = 'F' THEN 'Girls'
+        ELSE 'Boys'
+    END AS GenderCategory
+FROM Employee2;
 
-     --Another one 
-     SELECT 
-     EmpName,
-     Gender,
-     CASE 
-         WHEN Gender = 'F' THEN 'Girls'
-         ELSE 'Boys'
-         END AS GENDER
-         FROM Employe2;
-
-
-
+-- ==========================================
+-- CASE Example 4
+-- City Category
+-- ==========================================
 SELECT
     EmpName,
     City,
@@ -70,20 +109,18 @@ SELECT
         WHEN City = 'Biratnagar' THEN 'Second Largest City'
         ELSE 'Other City'
     END AS CityCategory
-FROM Employe2;
+FROM Employee2;
 
-
-
+-- ==========================================
+-- CASE Example 5
+-- Age Category
+-- ==========================================
 SELECT
     EmpName,
     Age,
     CASE
-        WHEN Age >= 30 THEN 'Senior Employe'
-        WHEN Age >= 25 THEN 'Mid-level Employe'
-        ELSE 'Junior Employe'
+        WHEN Age >= 30 THEN 'Senior Employee'
+        WHEN Age >= 25 THEN 'Mid-level Employee'
+        ELSE 'Junior Employee'
     END AS AgeCategory
-FROM Employe2;
-
-
-
-SELECT * FROM Employee2;
+FROM Employee2;
