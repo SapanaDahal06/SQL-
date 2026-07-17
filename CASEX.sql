@@ -79,7 +79,7 @@ SELECT
     Age,
     CASE
         WHEN Age >= 30 THEN 'Senior Employee'
-        WHEN Age >= 25 THEN 'Mid-level Employee'
+        WHEN Age >= 25 THEN 'Mid-level Employe'
         ELSE 'Junior Employe'
     END AS AgeCategory
 FROM Employe2;
