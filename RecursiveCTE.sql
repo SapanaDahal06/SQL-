@@ -52,3 +52,20 @@ WITH Number AS
 )
 SELECT *
 FROM Number;
+
+
+-- Lesson 5: Count by 2
+--------------------------------------------------
+
+WITH Number AS
+(
+    SELECT 10 AS Number
+
+    UNION ALL
+
+    SELECT Number + 2
+    FROM Number
+    WHERE Number < 20
+)
+SELECT *
+FROM Number;
