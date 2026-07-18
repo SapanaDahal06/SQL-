@@ -79,9 +79,9 @@ WITH Number AS
 UNION ALL
 
     -- Recursive Member
-    SELECT Number + 1
+    SELECT Number + 2
     FROM Number
-    WHERE Number < 5
+    WHERE Number < 10
 )
 SELECT * 
 FROM Number;
