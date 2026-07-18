@@ -6,6 +6,8 @@ WITH Number AS
 SELECT 1 AS Number
 UNION 
 SELECT 2
+UNION 
+SELECT 3
 )
 
 SELECT * 
