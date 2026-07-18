@@ -59,7 +59,7 @@ FROM Number;
 
 WITH Number AS
 (
-    SELECT 10 AS Number
+    SELECT 5 AS Number
 
     UNION ALL
 
