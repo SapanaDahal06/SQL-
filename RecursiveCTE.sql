@@ -87,12 +87,15 @@ SELECT *
 FROM Number;
 
 
-
 WITH Number AS
 (
-SELECT 1 AS Number
-UNION ALL 
-SELECT Number -2
-FROM Number
-WHERE Number >10
+    SELECT 11 AS Number
+
+    UNION ALL
+
+    SELECT Number + 2
+    FROM Number
+    WHERE Number < 20
 )
+SELECT *
+FROM Number;
