@@ -12,3 +12,12 @@ SELECT 3
 
 SELECT * 
 FROM Number;
+
+
+WITH Number AS
+(
+SELECT 1 As Number 
+UNION ALL 
+SELECT Number + 1 
+FROM Number
+)
