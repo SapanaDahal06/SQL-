@@ -69,3 +69,9 @@ WITH Number AS
 )
 SELECT *
 FROM Number;
+
+WITH Number AS
+(
+    -- Anchor Member
+    SELECT 1 AS Number
+)
