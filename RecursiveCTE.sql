@@ -83,3 +83,5 @@ UNION ALL
     FROM Number
     WHERE Number < 5
 )
+SELECT * 
+FROM Number;
