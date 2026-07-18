@@ -85,3 +85,14 @@ UNION ALL
 )
 SELECT * 
 FROM Number;
+
+
+
+WITH Number AS
+(
+SELECT 1 AS Number
+UNION ALL 
+SELECT Number -2
+FROM Number
+WHERE Number >10
+)
