@@ -35,3 +35,20 @@ WITH Number AS
 )
 SELECT *
 FROM Number;
+
+
+-- Lesson 4: Count from 1 to 10
+--------------------------------------------------
+
+WITH Number AS
+(
+    SELECT 1 AS Number
+
+    UNION ALL
+
+    SELECT Number + 1
+    FROM Number
+    WHERE Number < 10
+)
+SELECT *
+FROM Number;
