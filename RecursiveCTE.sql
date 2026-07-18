@@ -74,4 +74,12 @@ WITH Number AS
 (
     -- Anchor Member
     SELECT 1 AS Number
+
+
+UNION ALL
+
+    -- Recursive Member
+    SELECT Number + 1
+    FROM Number
+    WHERE Number < 5
 )
