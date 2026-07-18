@@ -16,3 +16,22 @@ WITH Number AS
 )
 SELECT *
 FROM Number;
+
+
+-- Lesson 3: First Recursive CTE
+--------------------------------------------------
+
+WITH Number AS
+(
+    -- Anchor Member (Starting Point)
+    SELECT 1 AS Number
+
+    UNION ALL
+
+    -- Recursive Member
+    SELECT Number + 1
+    FROM Number
+    WHERE Number < 5
+)
+SELECT *
+FROM Number;
