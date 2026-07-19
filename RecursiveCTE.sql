@@ -102,3 +102,5 @@ FROM Number;
 
 
 WITH Number AS
+(
+SELECT 12 AS Number
