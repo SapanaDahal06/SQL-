@@ -105,4 +105,4 @@ WITH Number AS
 (
 SELECT 12 AS Number
 UNION ALL 
-SELECT Number
+SELECT Number +  3
