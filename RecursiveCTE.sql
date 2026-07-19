@@ -107,4 +107,4 @@ SELECT 12 AS Number
 UNION ALL 
 SELECT Number +  3
 FROM Number
-WHERE 
+WHERE Number
