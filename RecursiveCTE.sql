@@ -109,4 +109,5 @@ SELECT Number +  3
 FROM Number
 WHERE Number < 30
 )
+SELECT*
 FROM Number;
