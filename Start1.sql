@@ -24,3 +24,6 @@ from employees;
 
 Select * from employees
 where Salary > 500000;
+
+Select * from employees
+where Salary >= 500000;
