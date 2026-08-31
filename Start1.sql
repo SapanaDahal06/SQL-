@@ -21,3 +21,6 @@ Where Department = 'IT';
 
 SELECT name , salary 
 from employees;
+
+Select * from employees
+where Salary > 500000;
