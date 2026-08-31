@@ -49,3 +49,7 @@ where Salary <= 800000;
 Select * from employees
 where Department = 'IT'
  AND salary > 600000;
+
+ Select * from employees
+ where Department = 'IT'
+ OR Department = 'HR';
