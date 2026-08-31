@@ -145,3 +145,4 @@ SELECT
     T.TotalSalary
 FROM HighSalaryEmployee AS H
 CROSS JOIN TotalSalary AS T;
+
