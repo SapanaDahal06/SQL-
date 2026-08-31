@@ -25,5 +25,22 @@ from employees;
 Select * from employees
 where Salary > 500000;
 
+ --operators -- 
 Select * from employees
 where Salary >= 500000;
+
+Select * From employees
+where Department <> 'HR';
+
+Select * from employees
+where Salary> 50000;
+
+
+Select * from employees
+where Salary>= 50000;
+
+Select * from employees
+where Salary < 90000;
+
+Select * from employees
+where Salary <= 800000;
