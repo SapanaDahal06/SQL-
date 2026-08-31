@@ -19,3 +19,9 @@ ORDER BY  Salary ASC;
 
 select * from em
 order by Salary desc;
+
+select DISTINCT department 
+from em;
+
+SELECT department
+from em;
