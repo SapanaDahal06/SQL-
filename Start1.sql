@@ -18,3 +18,6 @@ SELECT * FROM employees;
 
 SELECT * FROM  employees
 Where Department = 'IT';
+
+SELECT name , salary 
+from employees;
