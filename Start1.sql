@@ -13,3 +13,5 @@ VALUES
 (2, 'Sita', 'HR', 600000),
 (3, 'Hari', 'IT', 80000),
 (4, 'Gita', 'Finance', 900000);
+
+SELECT * FROM employees;
