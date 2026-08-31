@@ -11,7 +11,7 @@ INSERT INTO employees
 VALUES 
 (1, 'Ram', 'IT', 500000),
 (2, 'Sita', 'HR', 600000),
-(3, 'Hari', 'IT', 80000),
+(3, 'Hari', 'IT', 800000),
 (4, 'Gita', 'Finance', 900000);
 
 SELECT * FROM employees;
@@ -44,3 +44,8 @@ where Salary < 90000;
 
 Select * from employees
 where Salary <= 800000;
+
+--AND --
+Select * from employees
+where Department = 'IT'
+ AND salary > 600000;
