@@ -53,3 +53,7 @@ where Department = 'IT'
  Select * from employees
  where Department = 'IT'
  OR Department = 'HR';
+
+ SELECT *
+FROM employees
+WHERE NOT department = 'HR';
