@@ -16,3 +16,6 @@ SELECT * FROM em;
 
 select * from em
 ORDER BY  Salary ASC; 
+
+select * from em
+order by Salary desc;
