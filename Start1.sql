@@ -1,12 +1,15 @@
-use sapana;
-Create Table employees(
-id int,
-Name Varchar(40),
-Department Varchar(50),
-Salary int 
+USE sapana;
 
+CREATE TABLE employees (
+    id INT,
+    Name VARCHAR(40),
+    Department VARCHAR(50),
+    Salary INT
 );
 
-Insert into employees values 
-(1 , 'Ram','IT',500000),
-(2 , 'Sita','HR',600000),
+INSERT INTO employees
+VALUES 
+(1, 'Ram', 'IT', 500000),
+(2, 'Sita', 'HR', 600000),
+(3, 'Hari', 'IT', 80000),
+(4, 'Gita', 'Finance', 900000);
