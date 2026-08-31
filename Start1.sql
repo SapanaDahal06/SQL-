@@ -15,3 +15,6 @@ VALUES
 (4, 'Gita', 'Finance', 900000);
 
 SELECT * FROM employees;
+
+SELECT * FROM  employees
+Where Department = 'IT';
