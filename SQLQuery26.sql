@@ -25,3 +25,7 @@ from em;
 
 SELECT department
 from em;
+
+SELECT TOP 4 * 
+FROM em
+ORDER BY Salary;
