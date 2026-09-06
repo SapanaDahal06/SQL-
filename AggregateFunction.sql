@@ -17,8 +17,15 @@ VALUES
 
 SELECT * FROM LEA;
 
-SELECT COUNT(*) AS  Total_LEA
+-- How many students are in the table?--
+
+SELECT COUNT (*) AS TOTAL_LEA
 FROM LEA;
 
-SELECT COUNT (*)
+--How many NAME values are in the table?--
+SELECT COUNT(NAME) AS TOTAL_LEA
+FROM LEA;
+
+--How many MARK values are in the table?--
+SELECT COUNT(MARKS) AS TOTAL_LEA
 FROM LEA;
