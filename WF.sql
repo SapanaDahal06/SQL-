@@ -18,3 +18,6 @@ VALUES
 (6, 'Rita', 'Finance', 55000),
 (7, 'Kiran', 'Finance', 70000),
 (8, 'Farhana','HR',80000);
+
+
+SELECT * FROM EMP;
