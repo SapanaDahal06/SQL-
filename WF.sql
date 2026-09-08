@@ -1,1 +1,9 @@
 use sapana;
+
+
+CREATE TABLE EMP (
+    EMP_ID INT,
+    EMP_NAME VARCHAR(50),
+    DEPARTMENT VARCHAR(50),
+    SALARY INT
+);
