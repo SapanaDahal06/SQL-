@@ -164,3 +164,13 @@ SELECT
         ELSE 'Low'
     END AS SALARY_LEVEL
 FROM SAPPU;
+
+
+SELECT
+    EMP_NAME,
+    SALARY,
+    CASE
+        WHEN SALARY >= 70000 THEN 'Senior'
+        ELSE 'Junior'
+    END AS EMPLOYEE_LEVEL
+FROM SAPPU;
