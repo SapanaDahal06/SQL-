@@ -174,3 +174,22 @@ SELECT
         ELSE 'Junior'
     END AS EMPLOYEE_LEVEL
 FROM SAPPU;
+
+--create categories and then count how many employees are in each category.--
+SELECT
+    CASE
+        WHEN SALARY >= 70000 THEN 'High'
+        ELSE 'Low'
+    END AS SALARY_LEVEL,
+    COUNT(*) AS TOTAL_EMPLOYEES
+FROM EMPLOYEES
+GROUP BY
+    CASE
+        WHEN SALARY >= 70000 THEN 'High'
+        ELSE 'Low'
+    END;
+
+    
+
+
+    
