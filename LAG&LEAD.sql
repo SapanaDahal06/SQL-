@@ -190,6 +190,32 @@ GROUP BY
     END;
 
     
+    /*syntax of group by
+    SELECT
+    CASE
+        WHEN condition THEN category
+        ELSE category
+    END,
+    COUNT(*)
+FROM table
+GROUP BY
+    CASE
+        WHEN condition THEN category
+        ELSE category
+    END;
+    */
 
+    SELECT
+    CASE
+        WHEN SALARY >= 70000 THEN 'High'
+        ELSE 'Low'
+    END AS SALARY_LEVEL,
+    COUNT(*) AS TOTAL_EMPLOYEES
+FROM SAPPU
+GROUP BY
+    CASE
+        WHEN SALARY >= 70000 THEN 'High'
+        ELSE 'Low'
+    END;
 
     
