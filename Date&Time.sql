@@ -1,0 +1,3 @@
+use sapana;
+
+SELECT GETDATE() AS CURRENT_DATE_TIME;
