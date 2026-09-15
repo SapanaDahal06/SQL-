@@ -53,3 +53,14 @@ WITH HighSalary AS
 )
 SELECT *
 FROM HighSalary;
+---CTE WITH GROUP BY --
+WITH DepartmentSalary AS
+(
+    SELECT
+        DEPARTMENT,
+        AVG(SALARY) AS AVG_SALARY
+    FROM EMPLOYEES
+    GROUP BY DEPARTMENT
+)
+SELECT *
+FROM DepartmentSalary;
