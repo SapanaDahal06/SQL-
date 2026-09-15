@@ -70,20 +70,25 @@ FROM DepartmentSalary;
 
 
 --Strings function--
---LEN-
+--1len--
 SELECT
     EMP_NAME,
     LEN(EMP_NAME) AS NAME_LENGTH
 FROM EMPLOYEE_PRACTICE;
---UPPER--
+--2 upper--
 
 SELECT
     EMP_NAME,
     UPPER(EMP_NAME) AS UPPER_NAME
 FROM EMPLOYEE_PRACTICE;
-
---LOWER--
+--3lower--
 SELECT
     EMP_NAME,
     LOWER(EMP_NAME) AS LOWER_NAME
+FROM EMPLOYEE_PRACTICE;
+
+--4. LEFT() — take characters from the left
+SELECT
+    EMP_NAME,
+    LEFT(EMP_NAME, 2) AS FIRST_TWO
 FROM EMPLOYEE_PRACTICE;
