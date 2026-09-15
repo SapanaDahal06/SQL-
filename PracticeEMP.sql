@@ -15,3 +15,6 @@ VALUES
 (3, 'Gita', 'HR', 50000, 3000),
 (4, 'Sita', 'HR', 65000, NULL),
 (5, 'Muna', 'Finance', 70000, 7000);
+
+SELECT *
+FROM EMPLOYEE_PRACTICE;
