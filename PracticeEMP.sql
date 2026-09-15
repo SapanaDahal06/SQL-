@@ -53,6 +53,9 @@ WITH HighSalary AS
 )
 SELECT *
 FROM HighSalary;
+
+
+
 ---CTE WITH GROUP BY --
 WITH DepartmentSalary AS
 (
@@ -64,3 +67,10 @@ WITH DepartmentSalary AS
 )
 SELECT *
 FROM DepartmentSalary;
+
+
+--Strings function--
+SELECT
+    EMP_NAME,
+    LEN(EMP_NAME) AS NAME_LENGTH
+FROM EMPLOYEE_PRACTICE;
